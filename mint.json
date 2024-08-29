@@ -1,0 +1,104 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "openlane",
+  "favicon": "/favicon.png",
+  "colors": {
+    "primary": "#2AB673",
+    "light": "#55D799",
+    "dark": "#117866"
+  },
+  "feedback": {
+    "suggestEdit": true,
+    "raiseIssue": true
+  },
+  "openapi": "https://api.theopenlane.io/v1/api-docs.json",
+  "topbarLinks": [
+    {
+      "name": "Login",
+      "url": "https://console.theopenlane.io/login"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Get Started",
+    "url": "https://console.theopenlane.io/register"
+  },
+  "primaryTab": {
+    "name": "Overview"
+  },
+  "anchors": [
+    {
+      "name": "docs",
+      "icon": "docs",
+      "url": "overview"
+    },
+    {
+      "name": "github",
+      "icon": "github",
+      "url": "https://github.com/theopenlane"
+    },
+    {
+      "name": "openapi",
+      "icon": "code",
+      "url": "openapi"
+  }
+  ],
+  "tabs": [
+    {
+      "name": "docs",
+      "url": "overview"
+    },
+    {
+    "name": "platform",
+    "url": "platform"
+    },
+    {
+      "name": "contribute",
+      "url": "contribute"
+    },
+    {
+      "name": "roadmap",
+      "url": "roadmap"
+    },
+    {
+      "name": "handbook",
+      "url": "handbook"
+    },
+    {
+    "name": "developing",
+    "url": "developing"
+    },
+    {
+      "name": "openapi",
+      "url": "openapi"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "overview",
+      "pages": ["overview/glossary", "overview/whyopenlane","overview/howitworks","overview/faq"]
+    },
+    {
+      "group": "handbook",
+      "pages": ["handbook/whatwebelieve","handbook/marketingstrategy","handbook/businessopportunity","companyhandbook/working_agreement"]
+    },
+    {
+      "group": "platform",
+      "pages": ["platform/overview","platform/compliance","platform/roadmap","platform/security"]
+    },
+    {
+      "group": "contribute",
+      "pages": ["contribute/overview","contribute/blueprinttemplate","contribute/blueprints","contribute/styleguide","contribute/documentationreferences"]
+    },
+    {
+      "group": "developing",
+      "pages": ["developing/docs"]
+    }
+  ],
+  "footerSocials": {
+    "github": "https://github.com/theopenlane",
+    "linkedin": "https://www.linkedin.com/company/theopenlane/about",
+    "x": "https://x.com/openlaneSaaS",
+    "instagram": "https://www.instagram.com/openlanesaas",
+    "slack": "https://join.slack.com/t/theopenlane/signup"
+  }
+}
