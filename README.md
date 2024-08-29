@@ -1,2 +1,3 @@
 # docs
-documentation for the OpenLane products and company
+
+documentation for the openlane products and company

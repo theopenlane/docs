@@ -1,0 +1,37 @@
+---
+title: ''
+sidebarTitle: ''
+description: ''
+icon: ''
+---
+
+# Blueprints
+
+A "blueprint" is an informal document that the primary author(s) of a software system or application creates before they start a project. It's the rough equivalent of a high level implementation strategy / approach, but most notably includes the key design decisions with emphasis on the trade-offs that were considered during those decisions.
+
+As engineers our job isn't just "producing code", but instead to solve problems and through solving those problems take into consideration many intersecting factors outside of the technology directly. Unstructured text, like in the form of a design doc / blueprint, is typically the better tool for solving problems early in a project lifecycle as it's typically more concise, easier for an external reader to comprehend, and communicates the problems and solutions at a higher level than code would directly.
+
+In addition to basic documentation and the exercise of framing out the problem we're setting out to solve, we want to take advantage of the opportunity for the combined experience of the organization to be incorporated into a design. Ensuring that designs take cross-cutting concerns such as observability, security and privacy into account is something that can be easily accomplished during the design / iteration phase. **The primary value of a review / feedback on a blueprint isn’t that issues get discovered per-se, but rather that this happens somewhat early in the development lifecycle when it is still relatively cheap to make changes.**
+
+## Realistic goals
+
+Many an engineer has cast arguments against design docs / blueprints, such as:
+
+* "Docs are hard"
+* "Don't you have to like, maintain those after you write them?"
+* "Why do I need to explain why my ray of brilliance should go to production?"
+* "These pretzels are making me thirsty!"
+
+The realistic and tangible goals we're setting are:
+
+* Early identification of design issues when making changes to the design is still cheap
+* Obtain as much consideration of cross-cutting concerns (observability, security, etc.)
+* Acts as a summary artifact of the work and typically ends up being big portions of the operational docs
+
+## Maintenance
+
+Any time an engineer gets confronted with a system that they hadn’t previously touched, their first question is often “Where is the design doc?”. All documentation tends to get out of sync with reality over time, but the docs will always be the most accessible entry point to learn about the thinking that guided the creation of the system. We want to focus our efforts on the conveyance of the rationalization, context, and factors that contributed to the technology decisions and not so much concerning ourselves with a document that entirely captures the system architecture.
+
+## When not to do a blueprint
+
+If you're writing a blueprint that basically says: “This is how we are going to implement it” without going into trade-offs, alternatives, and explaining decision making (or if the solution is so obvious as to mean there were no trade-offs), then it would probably have been a better idea to write the code, and skip the blueprint. “I tried it out and it works” is one of the best arguments for choosing a design. There's usually some context that could be conveyed, but this isn't a check-boxing exercise for the sake of writing it, there's a value proposition that each person should consider, along with the rationale framed out above.

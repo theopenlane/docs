@@ -1,0 +1,30 @@
+version: '3'
+
+tasks:
+  default:
+    silent: true
+    cmds:
+      - task --list
+
+  install:
+    desc: installs tools and packages needed to develop against this repo
+    cmds:
+      - npm i -g mintlify
+      - brew install nvm
+
+  run:
+    desc: run a local server which launches the rendered wiki on localhost:3000
+    cmds:
+      - mintlify dev
+
+  apidocs:
+    desc: runs the command required to generate the api documentation
+    cmds:
+      - npx @mintlify/scraping@latest openapi-file openapi.json -o api-reference
+
+  precommit-full:
+    desc: Lint the project against all files
+    cmds:
+      - pre-commit install && pre-commit install-hooks
+      - pre-commit autoupdate
+      - pre-commit run --show-diff-on-failure --color=always --all-files
