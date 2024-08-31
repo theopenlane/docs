@@ -11,7 +11,7 @@
     "suggestEdit": true,
     "raiseIssue": true
   },
-  "openapi": "https://api.theopenlane.io/v1/api-docs.json",
+  "openapi": "https://api.theopenlane.io/api-docs.json",
   "topbarLinks": [
     {
       "name": "Login",
@@ -78,8 +78,64 @@
       "pages": ["overview/glossary", "overview/whyopenlane","overview/howitworks","overview/faq"]
     },
     {
-      "group": "handbook",
-      "pages": ["handbook/whatwebelieve","handbook/marketingstrategy","handbook/businessopportunity","companyhandbook/working_agreement"]
+      "group": "Handbook",
+      "pages": [
+        {
+          "group": "company",
+          "pages": [
+            "handbook/whyweexist",
+            "handbook/whatwebelieve",
+            "handbook/howwegothere",
+            "handbook/howwemakemoney",
+            "handbook/howwetalktoeachother",
+            "handbook/whatinspiresus"
+          ]
+        },
+        {
+          "group": "design",
+          "pages": [
+            "design/brandguidelines",
+            "design/designprocess",
+            "design/howwethinkaboutdesign"
+          ]
+        },
+        {
+          "group": "engineering",
+          "pages": [
+            "engineering/devopsninjas",
+            "engineering/rfcs",
+            "engineering/shippingnewfeatures",
+            "engineering/techstack"
+          ]
+        },
+        {
+          "group": "marketing",
+          "pages": [
+            "marketing/brandvoiceandtone",
+            "marketing/howweapproachmarketing",
+            "marketing/howwethinkaboutourwebsite",
+            "marketing/howwethinkaboutswag",
+            "marketing/howwewritecustomerstories",
+            "marketing/mostcommonusecases"
+          ]
+        },
+        {
+          "group": "people",
+          "pages": [
+            "people/howwework",
+            "people/removework"
+          ]
+        },
+        {
+          "group": "support",
+          "pages": [
+            "support/howweevolveknowledgebase",
+            "support/howwehelpusers",
+            "support/howwerecievefeedback",
+            "support/howwescalesupport"
+          ]
+        }
+      ]
     },
     {
       "group": "platform",
