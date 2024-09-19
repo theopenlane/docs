@@ -3,9 +3,9 @@
   "name": "openlane",
   "favicon": "/favicon.png",
   "colors": {
-    "primary": "#2AB673",
-    "light": "#55D799",
-    "dark": "#117866"
+    "primary": "#09f1c7",
+    "light": "#59c1bb",
+    "dark": "#082930"
   },
   "feedback": {
     "suggestEdit": true,
@@ -23,7 +23,7 @@
     "url": "https://console.theopenlane.io/register"
   },
   "primaryTab": {
-    "name": "Overview"
+    "name": "overview"
   },
   "anchors": [
     {
@@ -56,26 +56,26 @@
       "url": "contribute"
     },
     {
-      "name": "roadmap",
-      "url": "roadmap"
-    },
-    {
       "name": "handbook",
       "url": "handbook"
     },
     {
     "name": "developing",
     "url": "developing"
-    },
-    {
-      "name": "openapi",
-      "url": "openapi"
     }
   ],
   "navigation": [
     {
       "group": "overview",
-      "pages": ["overview/glossary", "overview/whyopenlane","overview/howitworks","overview/faq"]
+      "pages": ["overview/whyopenlane","overview/howitworks","overview/faq","overview/glossary"]
+    },
+    {
+      "group": "platform",
+      "pages": ["platform/overview","platform/compliance","platform/roadmap","platform/security"]
+    },
+    {
+      "group": "contribute",
+      "pages": ["contribute/overview","contribute/blueprinttemplate","contribute/blueprints","contribute/styleguide","contribute/documentationreferences"]
     },
     {
       "group": "Handbook",
@@ -84,8 +84,8 @@
           "group": "company",
           "pages": [
             "handbook/whyweexist",
-            "handbook/whatwebelieve",
             "handbook/howwegothere",
+            "handbook/whatwebelieve",
             "handbook/howwemakemoney",
             "handbook/howwetalktoeachother",
             "handbook/whatinspiresus"
@@ -136,14 +136,6 @@
           ]
         }
       ]
-    },
-    {
-      "group": "platform",
-      "pages": ["platform/overview","platform/compliance","platform/roadmap","platform/security"]
-    },
-    {
-      "group": "contribute",
-      "pages": ["contribute/overview","contribute/blueprinttemplate","contribute/blueprints","contribute/styleguide","contribute/documentationreferences"]
     },
     {
       "group": "developing",
