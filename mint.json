@@ -35,12 +35,7 @@
       "name": "github",
       "icon": "github",
       "url": "https://github.com/theopenlane"
-    },
-    {
-      "name": "openapi",
-      "icon": "code",
-      "url": "openapi"
-  }
+    }
   ],
   "tabs": [
     {
@@ -80,6 +75,7 @@
     {
       "group": "Handbook",
       "pages": [
+        "company","design","engineering","marketing","people","support"
         {
           "group": "company",
           "pages": [
