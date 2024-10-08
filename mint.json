@@ -79,12 +79,12 @@
         {
           "group": "company",
           "pages": [
-            "handbook/whyweexist",
             "handbook/howwegothere",
-            "handbook/whatwebelieve",
             "handbook/howwemakemoney",
             "handbook/howwetalktoeachother",
-            "handbook/whatinspiresus"
+            "handbook/whatinspiresus",
+            "handbook/whatwebelieve",
+            "handbook/whyweexist"
           ]
         },
         {
