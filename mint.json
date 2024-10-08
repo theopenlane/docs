@@ -75,7 +75,7 @@
     {
       "group": "Handbook",
       "pages": [
-        "company","design","engineering","marketing","people","support"
+        "company","design","engineering","marketing","people","support",
         {
           "group": "company",
           "pages": [
